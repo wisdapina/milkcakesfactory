@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    background-color: rgba(105, 105, 105, 0.432);
+}
+
+.footer h3 {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 20px;
+}
+
+.redes a {
+    font-size: 30px;
+    color: rgb(221, 101, 201);
+}
+
+.redes a:hover {
+    color: rgb(5, 3, 3);
+    transform: scale(1.1);
+    transition: all ease-in-out .4s;
+}

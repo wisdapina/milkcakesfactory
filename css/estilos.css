@@ -1,0 +1,130 @@
+.fondo {
+  background-color: rgba(235, 187, 187, 0.466); }
+
+.intro {
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px rgba(39, 39, 39, 0.753);
+  padding: 20px;
+  margin: 30px 20px; }
+
+.intro:hover {
+  transform: scale(1.05);
+  transition: all ease-in-out 2s; }
+
+.intro h1 {
+  font-weight: 700;
+  color: black; }
+
+.intro h2 {
+  font-weight: 700;
+  color: #6ae743; }
+
+.intro-img img {
+  max-width: 100%;
+  max-height: 100px; }
+
+.galeria h3 {
+  margin-top: 40px;
+  font-weight: 700;
+  color: #c752c1;
+  font-size: 40px;
+  text-transform: uppercase; }
+
+.galeria-item img {
+  max-width: 300px;
+  box-shadow: 0px 4px 20px rgba(39, 39, 39, 0.753); }
+
+@media (min-width: 700px) {
+  .galeria-item img {
+    max-width: 300px;
+    box-shadow: 0px 4px 20px rgba(39, 39, 39, 0.753); }
+  .galeria-item:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 1s; } }
+
+@media (max-width: 100px) {
+  .galeria-item img {
+    max-width: 100px;
+    margin-left: 30px;
+    margin-top: 15px; } }
+
+.carousel-inner img {
+  height: 90vh;
+  max-width: 100%; }
+
+.texto-titulo {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px 20px; }
+
+.navbar {
+  background-color: #d4cfcf !important; }
+
+.texto-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px rgba(39, 39, 39, 0.753);
+  padding: 20px;
+  margin: 30px 20px; }
+
+.productos-item img {
+  max-width: 200px;
+  max-height: 200px; }
+
+h3 {
+  color: #c752c1; }
+
+.img-testimonio {
+  max-width: 90px;
+  max-height: 80px; }
+
+.titulo-t h6 {
+  font-style: oblique;
+  color: #a73f87; }
+
+.fondo-contacto {
+  background-image: url(); }
+
+.btn-grad {
+  background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%); }
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block; }
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none; }
+
+h2 {
+  color: rosybrown;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342); }
+
+.footer {
+  width: 100%;
+  background-color: rgba(105, 105, 105, 0.432); }
+
+.footer h3 {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.644);
+  font-size: 20px; }
+
+.redes a {
+  font-size: 30px;
+  color: #dd65c9; }
+
+.redes a:hover {
+  color: #050303;
+  transform: scale(1.1);
+  transition: all ease-in-out .4s; }
